@@ -10,7 +10,7 @@ It's a requirement since the [ePrivacy directive](http://ec.europa.eu/ipg/basics
 * install the bundle
 
 ```bash
-composer require leblanc-simon/eu-cookie-law-bundle
+composer require kikwik/eu-cookie-law-bundle
 ```
 
 * activate the bundle
