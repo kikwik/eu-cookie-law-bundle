@@ -1,5 +1,5 @@
 {
-    "name": "leblanc-simon/eu-cookie-law-bundle",
+    "name": "kikwik/eu-cookie-law-bundle",
     "type": "symfony-bundle",
     "description": "Add the cookie div explanation according to EU law",
     "license": "MIT",
