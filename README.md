@@ -1,5 +1,7 @@
 # EUCookieLawBundle
 
+This is a fork of [leblanc-simon/eu-cookie-law-bundle](https://github.com/leblanc-simon/eu-cookie-law-bundle) to make it wotk with symfony 4
+
 ## Description
 
 this bundle allow you to add the information message for your users about the cookies. 
