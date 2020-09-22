@@ -2,7 +2,7 @@ services:
   eucookielaw.injector.template:
     class: LeblancSimon\EUCookieLawBundle\Injector\EUCookieLawTemplate
     arguments:
-      - "@templating"
+      - "@twig"
       - "%eu_cookie_law.template%"
       - "%eu_cookie_law.cookie_name%"
       - "%eu_cookie_law.cookie_value%"

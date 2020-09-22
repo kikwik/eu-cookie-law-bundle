@@ -11,14 +11,14 @@
 
 namespace LeblancSimon\EUCookieLawBundle\Injector;
 
-use Symfony\Bundle\TwigBundle\TwigEngine;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Twig\Environment;
 
 class EUCookieLawTemplate
 {
     /**
-     * @var TwigEngine
+     * @var Environment
      */
     private $templating;
 
@@ -40,13 +40,13 @@ class EUCookieLawTemplate
     /**
      * EUCookieLawTemplate constructor.
      *
-     * @param TwigEngine $templating
+     * @param Environment $templating
      * @param $template_name
      * @param $cookie_name
      * @param $cookie_value
      * @param $read_more_link
      */
-    public function __construct(TwigEngine $templating, $template_name, $cookie_name, $cookie_value, $read_more_link)
+    public function __construct(Environment $templating, $template_name, $cookie_name, $cookie_value, $read_more_link)
     {
         $this->templating = $templating;
         $this->template_name = $template_name;

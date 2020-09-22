@@ -36,7 +36,7 @@ class Configuration implements ConfigurationInterface
                     ->defaultValue(null)
                 ->end()
                 ->scalarNode('template')
-                    ->defaultValue('LeblancSimonEUCookieLawBundle::eu_cookie_law.html.twig')
+                    ->defaultValue('@LeblancSimonEUCookieLaw/eu_cookie_law.html.twig')
                 ->end()
             ->end()
         ;
