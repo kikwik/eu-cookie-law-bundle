@@ -1,6 +1,6 @@
 # EUCookieLawBundle
 
-This is a fork of [leblanc-simon/eu-cookie-law-bundle](https://github.com/leblanc-simon/eu-cookie-law-bundle) to make it wotk with symfony 4
+This is a fork of [leblanc-simon/eu-cookie-law-bundle](https://github.com/leblanc-simon/eu-cookie-law-bundle) to make it work with symfony 4
 
 ## Description
 
